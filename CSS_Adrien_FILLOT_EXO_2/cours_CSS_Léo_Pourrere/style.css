@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    min-height: 100vh;
+    background-image: url(images/BG.jpg);
+    background-size: cover;   /* pour prendre toute la page(image) */
+    background-attachment: fixed;   /* fixer l'image */
+    margin: 0;     /* de pas avoir de marge */
+}
+
+H1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Press Start 2P", sans-serif;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+  }
+  H2 {
+    background: linear-gradient(blue, white);
+    border-radius: 20px 0 20px 0;
+  }
+  ol,p{
+    background: rgba(255, 255, 255, 0.5);
+  }
+  a {
+    color: black;
+  }
+  em {
+    color: #168314d6;
+  }
